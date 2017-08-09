@@ -217,7 +217,7 @@ var Slider = React.createClass({
     var Marker = this.props.customMarker;
     var {top, slipDisplacement, height, width, borderRadius} = this.props.touchDimensions;
     var touchStyle = {
-      top: top || -10,
+      top: top || -14,
       height: height,
       width: width,
       borderRadius: borderRadius || 0
